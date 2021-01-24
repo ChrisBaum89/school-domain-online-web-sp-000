@@ -18,6 +18,6 @@ class School
     }
 
 
-    @current_roster = {grade}
+    #@current_roster = {grade}
   end
 end
