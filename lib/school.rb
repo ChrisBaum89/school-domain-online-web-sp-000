@@ -16,6 +16,7 @@ class School
     if @current_roster.include(grade)
       @current_roster = {grade => @name_array}
     else
+    end
       
   end
 end
