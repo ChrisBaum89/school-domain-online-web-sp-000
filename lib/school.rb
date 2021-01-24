@@ -3,7 +3,7 @@ class School
 
   def initialize(school)
     @school = school
-    #@current_roster = {}
+    @current_roster = {}
     @name_array = []
   end
 
