@@ -4,6 +4,7 @@ class School
   def initialize(school)
     @school = school
     @current_roster = {}
+    @name_array = []
   end
 
   def roster
@@ -11,6 +12,7 @@ class School
   end
 
   def add_student(name, grade)
-    @current_roster = {grade => name}
+    @name_array << name
+    @current_roster = {grade => @name_array}
   end
 end
