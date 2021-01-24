@@ -20,7 +20,7 @@ class School
   end
 
   def sort
-    @roste\=
+    @roster
   end
 
 end
