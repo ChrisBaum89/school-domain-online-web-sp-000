@@ -13,7 +13,6 @@ class School
 
   def add_student(name, grade)
     @current_roster = {
-      :grade => grade,
-      :name => name
+      :grade => grade
     }
   end
