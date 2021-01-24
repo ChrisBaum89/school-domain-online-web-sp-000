@@ -11,6 +11,6 @@ class School
   end
 
   def add_student(name, grade)
-
+    @current_roster = {grade => name}
   end
 end
