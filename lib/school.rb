@@ -16,4 +16,4 @@ class School
       :grade => grade,
       :name => name,
     }
-end
+  end
