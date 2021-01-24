@@ -15,7 +15,7 @@ class School
       #@name_array << name
       #@current_roster = {grade => @name_array}
       @current_roster[grade] = name
-      binding.pry
+      #binding.pry
 
   end
 end
