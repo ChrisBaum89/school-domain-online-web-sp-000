@@ -13,10 +13,11 @@ class School
 
   def add_student(name, grade)
     @current_roster = {
-      grade: grade,
+      grade: grade {
       name: name
     }
+    }
     binding.pry
-    @current_roster[grade][name]
+    @current_roster[:grade][name]
   end
 end
