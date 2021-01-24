@@ -1,5 +1,6 @@
 require 'pry'
 class School
+  attr_reader :name, :roster
 
   def initialize(name)
     @name = name
@@ -7,7 +8,7 @@ class School
   end
 
   def roster
-    @current_roster
+    @roster
   end
 
   def add_student(name, grade)
