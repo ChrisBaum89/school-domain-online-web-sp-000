@@ -1,10 +1,9 @@
 require 'pry'
 class School
 
-  def initialize(school)
-    @school = school
-    @current_roster = {}
-    @name_array = []
+  def initialize(name)
+    @name = name
+    @roster = Hash.new {|h, k| h[k] = []}
   end
 
   def roster
@@ -12,6 +11,5 @@ class School
   end
 
   def add_student(name, grade)
-      @current_roster = {grade => [name]}
-  end
+    self.roster[grade] << name
 end
