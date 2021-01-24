@@ -14,6 +14,9 @@ class School
   def add_student(name, grade)
     if @current_roster[grade].length > 0
       @current_roster[grade] << name
+    else
+      @current_roster[grade] = [name]
+    end
 
 
     #@current_roster = {grade}
