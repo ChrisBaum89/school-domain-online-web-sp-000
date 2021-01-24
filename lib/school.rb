@@ -16,6 +16,7 @@ class School
       grade: grade,
       name: name
     }
+    binding.pry
     @current_roster[grade][name]
   end
 end
