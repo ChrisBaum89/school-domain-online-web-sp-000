@@ -15,6 +15,7 @@ class School
     @name_array << name
     if @current_roster.include(grade)
       @current_roster = {grade => @name_array}
+      binding.pry
     else
     end
 
