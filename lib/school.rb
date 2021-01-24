@@ -16,7 +16,7 @@ class School
       grade: ,
       name: 
     }
-    
+
 
     @current_roster = {grade}
   end
