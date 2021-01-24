@@ -17,6 +17,6 @@ class School
           [name]
         }
       }
-      @current_roster[grade][name]
+      #@current_roster[grade][name]
   end
 end
