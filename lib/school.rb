@@ -14,7 +14,7 @@ class School
   def add_student(name, grade)
       @current_roster = {
         grade => {
-          name: [name]
+          [name]
         }
       }
       @current_roster[grade][:name]
