@@ -17,6 +17,6 @@ class School
       @current_roster = {grade => @name_array}
     else
     end
-      
+
   end
 end
