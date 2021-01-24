@@ -15,8 +15,6 @@ class School
     @name_array << name
       @current_roster = {grade => @name_array}
       binding.pry
-    else
-    end
 
   end
 end
