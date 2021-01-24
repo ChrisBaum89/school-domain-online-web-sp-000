@@ -12,8 +12,9 @@ class School
   end
 
   def add_student(name, grade)
-    @name_array << name
-      @current_roster = {grade => @name_array}
+      #@name_array << name
+      #@current_roster = {grade => @name_array}
+      @current_roster[grade] = name
       binding.pry
 
   end
