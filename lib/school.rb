@@ -3,7 +3,7 @@ class School
 
   def initialize(school)
     @school = school
-    @current_roster = {}
+    #@current_roster = {}
     @name_array = []
   end
 
@@ -13,11 +13,11 @@ class School
 
   def add_student(name, grade)
     @current_roster = {
-      grade: grade {
-      name: name
+      grade: ,
+      name: 
     }
-    }
-    binding.pry
-    @current_roster[:grade][name]
+    
+
+    @current_roster = {grade}
   end
 end
