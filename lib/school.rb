@@ -20,7 +20,8 @@ class School
   end
 
   def sort
-    @roster.sort_by{|k, v| k}
+    self.roster.each do |grade, students|
+      students.sort!
 
   end
 
