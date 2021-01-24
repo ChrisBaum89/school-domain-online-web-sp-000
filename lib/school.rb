@@ -13,6 +13,9 @@ class School
 
   def add_student(name, grade)
     @name_array << name
-    @current_roster = {grade => @name_array}
+    if @current_roster.include(grade)
+      @current_roster = {grade => @name_array}
+    else
+      
   end
 end
